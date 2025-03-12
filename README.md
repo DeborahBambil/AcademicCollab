@@ -17,3 +17,6 @@ git clone https://github.com/seu-usuario/contador-colaboracoes.git
 
 ## ⚙️ Run
 python contador_colaboracoes.py
+
+![name-of-you-image](https://github.com/DeborahBambil/figs/blob/main/figAcademic.png?raw=true)
+
