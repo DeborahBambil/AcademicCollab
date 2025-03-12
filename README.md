@@ -4,7 +4,7 @@
 
 # 📊 Contador de Colaborações
 
-**Autor**: DEBORAH BAMBI LOPES
+**Autor**: Deborah Bambil e Julia Sonsin
 
 ## 🎯 Propósito
 Ferramenta para contagem de colaborações entre professores e outros colaboradores em produções acadêmicas.
