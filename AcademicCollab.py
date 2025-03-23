@@ -1,3 +1,9 @@
+#Author: Deborah Bambil
+#kingOfMyHeart
+
+# Pink, it's my new obsession, yeah
+
+
 import tkinter as tk
 from tkinter import filedialog
 from collections import defaultdict
@@ -29,7 +35,9 @@ def contar_colaboracoes(arquivo, saida):
             
             producoes[producao].append((autor, categoria))
 
-    # Processar cada produção
+# Pink on the lips of your lover
+
+    # Run
     for producao, autores in producoes.items():
         categorias = {categoria for _, categoria in autores}
         
@@ -61,7 +69,10 @@ def contar_colaboracoes(arquivo, saida):
                         'colaboradores': colaboradores
                     })
 
-    # Gerar saída formatada
+
+# Cause pink is the love you discover
+
+    # Gerar saída formatada BAMBIL Science
     with open(saida, 'w', encoding='utf-8') as f:
         for docente, total in contagem_docentes.items():
             colaboradores = colaboradores_docentes[docente]
@@ -112,11 +123,11 @@ def executar():
     else:
         resultado_label.config(text="Por favor, selecione os arquivos de entrada e saída!")
 
-# Criar janela principal
+# Windown
 janela = tk.Tk()
 janela.title("Contador de Colaborações")
 
-# Criar botões e entradas
+# Button
 entrada_label = tk.Label(janela, text="Arquivo de entrada:")
 entrada_label.pack()
 entrada = tk.Entry(janela, width=50)
@@ -138,3 +149,10 @@ resultado_label = tk.Label(janela, text="")
 resultado_label.pack()
 
 janela.mainloop()
+
+
+# Pink, it's my new obsession, yeah
+# Pink on the lips of your lover
+# Cause pink is the love you discover
+
+# is my code... thank u pink!!!
